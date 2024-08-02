@@ -5,9 +5,9 @@ namespace ExerciseTest2
     public class EmailValidatorTest
     {
         [Theory]
-        [InlineData("matheus.macedomail.com")]
+        [InlineData("joao.alvesemail.com")]
         [InlineData("@mail")]
-        [InlineData("matheus.macedo@.com")]
+        [InlineData("joao.alves@.com")]
         public void GiveInvalidEmailsTest(string testedEmail)
         {
             // Act
